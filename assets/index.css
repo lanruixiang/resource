@@ -1,0 +1,57 @@
+* {
+    color: white;
+}
+body {
+    background-color: rgb(20, 18, 21);
+}
+#t1 {
+    margin: 5px 0 0 40px;
+    font-weight: 640;
+    color: #ffffff;
+    font-size: 80px;
+}
+#subt1 {
+    color: rgb(109, 116, 116);
+    margin: 5px 0 0 40px;
+    font-weight: 450;
+    font-size: 25px;
+}
+#title {
+    margin: 130px 0 0 80px;
+    display: flex;
+}
+#main {
+    margin: 60px 0 0 50px;
+}
+#line {
+    margin: 0 0 0 0;
+    background: linear-gradient(to bottom, #e97cfa, #7ef9c8);
+    height: 250px;
+    width: 4px;
+}
+#tosite {
+    width: 220px;
+    padding: 10px 0 10px 0;
+    background-color: #6e40c9;
+    border-radius: 7px;
+    text-align: center;
+    transition: .3s;
+}
+#blog {
+    width: 220px;
+    padding: 10px 0 10px 0;
+    box-shadow: inset #8866cd 0px 0px 0px 1.5px;
+    border-radius: 7px;
+    text-align: center;
+    transition: .3s;
+}
+#blog:hover {
+    box-shadow: inset white 0px 0px 0px 2px;
+}
+#tosite:hover {
+    box-shadow: white 0px 0px 7px 1px;
+}
+#blogtext, #sitetext {
+    font-size: 18px;
+    font-weight: 640;
+}
